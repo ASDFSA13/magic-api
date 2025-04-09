@@ -131,7 +131,7 @@ export default {
       contants.LOG_MAX_ROWS = Math.max(this.config.logMaxRows, 10)
     }
     this.config.version = contants.MAGIC_API_VERSION_TEXT
-    this.config.title = this.config.title || 'magic-api'
+    this.config.title = this.config.title || 'diq-idelamu-api'
     this.config.themes = this.config.themes || {}
     this.config.defaultTheme = this.config.defaultTheme || 'default'
     this.config.header = this.config.header || {
