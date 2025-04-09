@@ -93,7 +93,7 @@
   import MagicInput from '@/components/common/magic-input.vue'
   import MagicSelect from '@/components/common/magic-select.vue'
   import MagicCheckbox from '@/components/common/magic-checkbox.vue'
-  import MagicJsonTree from './magic-json-tree'
+  import MagicJsonTree from './magic-json-tree.vue'
 
   export default {
     name: 'MagicJson',

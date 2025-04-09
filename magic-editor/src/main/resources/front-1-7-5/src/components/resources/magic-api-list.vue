@@ -978,5 +978,5 @@ export default {
 </script>
 
 <style>
-@import './magic-resource.css';
+@import 'magic-resource.css';
 </style>

@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import Contextmenu from "./Contextmenu";
-import Submenu from "./Submenu";
+import Contextmenu from "./Contextmenu.vue";
+import Submenu from "./Submenu.vue";
 import {COMPONENT_NAME} from "./constant";
 
 const ContextmenuConstructor = Vue.extend(Contextmenu);

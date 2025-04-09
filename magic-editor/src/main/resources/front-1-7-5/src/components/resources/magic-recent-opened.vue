@@ -94,7 +94,7 @@ export default {
 }
 </script>
 <style scoped>
-@import './magic-resource.css';
+@import 'magic-resource.css';
 .ma-dialog-content .no-data-tip {
   line-height: 380px;
   text-align: center;

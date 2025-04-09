@@ -1,6 +1,6 @@
 import JavaClass from './java-class.js'
 import tokenizer from '@/scripts/parsing/tokenizer.js'
-import {TokenStream} from '../parsing/index.js'
+import {TokenStream} from '../parsing'
 import {Parser} from '@/scripts/parsing/parser.js'
 import {MethodCall} from "@/scripts/parsing/ast";
 

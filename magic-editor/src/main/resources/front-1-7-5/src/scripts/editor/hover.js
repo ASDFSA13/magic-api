@@ -1,5 +1,5 @@
 import tokenizer from '@/scripts/parsing/tokenizer.js'
-import { TokenStream } from '../parsing/index.js'
+import { TokenStream } from '../parsing'
 import {
     ClassConverter,
     FunctionCall,

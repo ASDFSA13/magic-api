@@ -177,7 +177,7 @@ export default {
 </script>
 
 <style>
-@import './magic-resource.css';
+@import 'magic-resource.css';
 .ma-tree-wrapper .ma-checkbox input + label{
   width: 12px !important;
   height: 12px !important;

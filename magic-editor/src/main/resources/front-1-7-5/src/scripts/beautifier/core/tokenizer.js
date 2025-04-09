@@ -28,9 +28,9 @@
 
 'use strict';
 
-var InputScanner = require('../core/inputscanner').InputScanner;
-var Token = require('../core/token').Token;
-var TokenStream = require('../core/tokenstream').TokenStream;
+var InputScanner = require('./inputscanner').InputScanner;
+var Token = require('./token').Token;
+var TokenStream = require('./tokenstream').TokenStream;
 var WhitespacePattern = require('./whitespacepattern').WhitespacePattern;
 
 var TOKEN = {

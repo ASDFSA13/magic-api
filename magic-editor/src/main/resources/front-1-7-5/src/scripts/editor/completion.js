@@ -1,6 +1,6 @@
 import JavaClass from './java-class.js'
 import tokenizer from '../parsing/tokenizer.js'
-import {TokenStream} from '../parsing/index.js'
+import {TokenStream} from '../parsing'
 import {Parser} from '../parsing/parser.js'
 import * as monaco from 'monaco-editor'
 import RequestParameter from "@/scripts/editor/request-parameter";

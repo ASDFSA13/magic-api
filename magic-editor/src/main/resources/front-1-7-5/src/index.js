@@ -1,6 +1,6 @@
 import './assets/index.css'
 
-import MagicEditor from './components/magic-editor'
+import MagicEditor from './components/magic-editor.vue'
 import MagicContextMenu from './components/common/magic-contextmenu'
 import Modal from './components/common/modal'
 import _Vue from 'vue'

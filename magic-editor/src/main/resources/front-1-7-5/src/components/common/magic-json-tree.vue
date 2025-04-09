@@ -25,7 +25,7 @@
 </template>
 
 <script>
-  import MagicJsonTreeFormat from './magic-json-tree-format'
+  import MagicJsonTreeFormat from './magic-json-tree-format.vue'
   import {deepClone} from "../../scripts/utils";
 
   export default {

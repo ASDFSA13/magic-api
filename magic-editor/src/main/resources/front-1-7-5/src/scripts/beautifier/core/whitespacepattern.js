@@ -28,7 +28,7 @@
 
 'use strict';
 
-var Pattern = require('../core/pattern').Pattern;
+var Pattern = require('./pattern').Pattern;
 
 function WhitespacePattern(input_scanner, parent) {
   Pattern.call(this, input_scanner, parent);
