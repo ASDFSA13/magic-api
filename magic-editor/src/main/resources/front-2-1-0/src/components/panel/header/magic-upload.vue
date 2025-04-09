@@ -3,7 +3,7 @@
 		<magic-file v-model:value="file" accept="application/x-zip-compressed"/>
 		<magic-button-group align="right" style="margin-top:5px">
 			<magic-button :value="$i('upload.increment')" type="active" @click="doUpload('increment')"/>
-			<magic-button :value="$i('upload.full')" @click="doUpload('full')"/>
+<!--			<magic-button :value="$i('upload.full')" @click="doUpload('full')"/>-->
 		</magic-button-group>
 	</magic-dialog>
 </template>

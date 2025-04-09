@@ -23,25 +23,10 @@ const props = defineProps({
 })
 const user = ref(null)
 const icons = [{
-    icon: 'gitee',
-    title: 'Gitee',
-    displayKey: 'repo',
-    onClick: () => window.open('https://gitee.com/ssssssss-team/magic-api')
-}, {
-    icon: 'git',
-    title: 'Github',
-    displayKey: 'repo',
-    onClick: () => window.open('https://github.com/ssssssss-team/magic-api')
-}, {
-    icon: 'qq',
-    title: $i('message.joinGroup'),
-    displayKey: 'qqGroup',
-    onClick: () => window.open('https://www.ssssssss.org/magic-api/pages/group/')
-}, {
     icon: 'help',
     title: $i('message.document'),
     displayKey: 'document',
-    onClick: () => window.open('https://ssssssss.org/magic-api')
+    onClick: () => window.open('https://delamunet.feishu.cn/wiki/Vx65w4N7NiT2Wkk5nMQcqMP4nhd?from=from_copylink')
 }]
 const navs = computed(() => {
     const array = icons.filter(it => props.config.header[it.displayKey] !== false)

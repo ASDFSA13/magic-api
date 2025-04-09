@@ -2,7 +2,7 @@
     <div class="magic-login">
         <div class="magic-login-box">
             <div class="magic-login-logo"></div>
-            <div class="magic-login-text">Magic-API <span v-if="constants.MAGIC_API_VERSION_TEXT">v{{constants.MAGIC_API_VERSION_TEXT}}</span></div>
+            <div class="magic-login-text">IDELAMU-DIQ <span v-if="constants.MAGIC_API_VERSION_TEXT">v{{constants.MAGIC_API_VERSION_TEXT}}</span></div>
             <div class="magic-login-row error" v-if="error"><magic-icon icon="error"/><span>{{ error }}</span></div>
             <div class="magic-login-row">
                 <magic-icon icon="user"/>
@@ -16,7 +16,7 @@
                 <magic-button :value="$i('message.login')" @onClick="doLogin"/>
             </div>
         </div>
-        <div class="magic-login-copyright">Copyright © 2020-{{new Date().getYear() + 1900}} <a href="https://ssssssss.org.cn" target="_blank">ssssssss.org.cn</a> All rights reserved.</div>
+<!--        <div class="magic-login-copyright">Copyright © 2020-{{new Date().getYear() + 1900}} <a href="https://ssssssss.org.cn" target="_blank">ssssssss.org.cn</a> All rights reserved.</div>-->
     </div>
 </template>
 <script setup>

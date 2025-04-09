@@ -15,7 +15,7 @@
 			<magic-button :value="$i('message.selectAll')" @onClick="$refs.resource.selectAll(true)"></magic-button>
 			<magic-button :value="$i('message.deselectAll')" @onClick="$refs.resource.selectAll(false)"></magic-button>
 			<magic-button :value="$i('push.increment')" @onClick="doPush('increment')" type="active"></magic-button>
-			<magic-button :value="$i('push.full')" @onClick="doPush('full')"></magic-button>
+<!--			<magic-button :value="$i('push.full')" @onClick="doPush('full')"></magic-button>-->
 		</magic-button-group>
 	</magic-dialog>
 </template>

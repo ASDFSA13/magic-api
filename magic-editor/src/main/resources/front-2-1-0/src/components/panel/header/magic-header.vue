@@ -1,8 +1,9 @@
 <template>
     <div class="magic-header">
         <div class="magic-logo">
-            <label :title="title">{{ title }}</label>
-            <label :title="version">{{ version }}</label>
+          <label :title="title">IDELAMU-DIQ</label>
+<!--          <label :title="title">{{ title }}</label>-->
+<!--            <label :title="version">{{ version }}</label>-->
         </div>
         <div class="magic-header-title">{{ pageTitle }}</div>
         <ul>

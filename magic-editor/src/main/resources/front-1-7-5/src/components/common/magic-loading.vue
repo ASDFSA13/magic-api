@@ -10,7 +10,8 @@
         <span>n</span>
         <span>g</span>
       </div>
-      <div class="ma-loading-text">By {{ title }} {{ version }}</div>
+<!--      <div class="ma-loading-text">By {{ title }} {{ version }}</div>-->
+      <div class="ma-loading-text">By IDELAMU-DIQ </div>
     </div>
   </div>
 </template>

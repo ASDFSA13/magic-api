@@ -141,12 +141,13 @@
     <script>
       function showMaLoadingText() {
         let defaultConfig = {
-          title: 'magic-api',
+          title: 'IDELAMU-DIQ',
           version: '<%= process.env.VUE_APP_MA_VERSION %>'
         }
         defaultConfig = { ...defaultConfig, ...window.MAGIC_EDITOR_CONFIG }
         let $dom = document.getElementById('ma-loading-text')
-        $dom.innerText = 'By ' + defaultConfig.title + ' ' + defaultConfig.version
+          // $dom.innerText = 'By IDELAMU-DIQ'
+          $dom.innerText = 'By ' + defaultConfig.title + ' ' + defaultConfig.version
       }
       function hideMaLoading() {
         document.getElementById('ma-loading-wrapper').style.display = 'none'

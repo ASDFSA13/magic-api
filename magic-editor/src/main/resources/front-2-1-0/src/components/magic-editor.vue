@@ -148,37 +148,37 @@ const onLogin = () => {
 }
 bus.$on(Message.LOGINED, onLogin)
 const checkUpdate = () => {
-	fetch('https://console.ssssssss.org.cn/latest?group=org.ssssssss&artifactId=magic-api&from=' + constants.MAGIC_API_VERSION_TEXT)
-		.then(response => {
-			if(props.config.checkUpdate !== false && response.status === 200){
-				response.json().then(json => {
-					if (json.version && json.version !== 'unknown' && constants.config.version !== json.version) {
-						bus.status('message.newVersionRelease', true, json.version)
-						if (json.version !== store.get(constants.IGNORE_VERSION)) {
-							bus.$emit(Message.NOTIFY, {
-								title: $i('message.tips'),
-								icon: 'warning',
-								content: $i('message.versionUpdate', json.version),
-								buttons: [{
-									title: $i('message.changelog'),
-									onClick: () => {
-										window.open('http://www.ssssssss.org/magic-api/changelog.html')
-									}
-								}, {
-									title: $i('message.ignore'),
-									onClick: () => {
-										store.set(constants.IGNORE_VERSION, json.version)
-									}
-								}]
-							})
-
-						}
-					} else {
-						bus.status('message.versionLastest')
-					}
-				})
-			}
-		})
+	// fetch('https://console.ssssssss.org.cn/latest?group=org.ssssssss&artifactId=magic-api&from=' + constants.MAGIC_API_VERSION_TEXT)
+	// 	.then(response => {
+	// 		if(props.config.checkUpdate !== false && response.status === 200){
+	// 			response.json().then(json => {
+	// 				if (json.version && json.version !== 'unknown' && constants.config.version !== json.version) {
+	// 					bus.status('message.newVersionRelease', true, json.version)
+	// 					if (json.version !== store.get(constants.IGNORE_VERSION)) {
+	// 						bus.$emit(Message.NOTIFY, {
+	// 							title: $i('message.tips'),
+	// 							icon: 'warning',
+	// 							content: $i('message.versionUpdate', json.version),
+	// 							buttons: [{
+	// 								title: $i('message.changelog'),
+	// 								onClick: () => {
+	// 									window.open('http://www.ssssssss.org/magic-api/changelog.html')
+	// 								}
+	// 							}, {
+	// 								title: $i('message.ignore'),
+	// 								onClick: () => {
+	// 									store.set(constants.IGNORE_VERSION, json.version)
+	// 								}
+	// 							}]
+	// 						})
+  //
+	// 					}
+	// 				} else {
+	// 					bus.status('message.versionLastest')
+	// 				}
+	// 			})
+	// 		}
+	// 	})
 }
 
 const getMagicTokenValue = () => (config.getMagicTokenValue && config.getMagicTokenValue()) || store.get(constants.STORE.token) || constants.HEADER_MAGIC_TOKEN_VALUE

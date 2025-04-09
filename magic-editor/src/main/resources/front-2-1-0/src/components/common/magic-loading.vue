@@ -4,7 +4,8 @@
             <span class="icon">
                 <magic-icon icon="refresh" size="20px"></magic-icon>
             </span>
-            {{ loadingText }}
+          By IDELAMU-DIQ
+<!--            {{ loadingText }}-->
         </p>
     </div>
     <slot v-else />
